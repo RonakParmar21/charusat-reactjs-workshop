@@ -11,7 +11,6 @@ function App() {
     fetch(API_URL)
       .then((response) => response.json())
       .then((data) => {
-        console.log("Data is : " , data);
         setFacts(data.text);
       })
       .catch((error) => {

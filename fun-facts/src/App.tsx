@@ -22,7 +22,6 @@ function App() {
    <>
     <button onClick={() => setCount(count + 1)}>+</button>
     <h1>{count}</h1>
-
     {facts}
    </>
   )
